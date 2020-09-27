@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.chaos.remoting.grpc;
+
+option java_multiple_files = false;
+
+message RemoteInvocationRequest {
+    bytes data = 1;
+}
+
+message RemoteInvocationResponse {
+    bytes data = 1;
+}
